@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
         <head>
 
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Document</title>
             <link rel = "stylesheet" href="css/style.css"/>
-            <link rel="stylesheet" type="text/css" href="fontawesome-free-5.11.2-web/css/all.min.css">
+            <script src="./js/script.js"></script>
 
         </head>
 
@@ -14,42 +14,57 @@
 
             <div class="calculatrice"> 
 
-                <div class="ecran"> </div>
+                <div class="ecran"> 
+                    
+                </div>
 
                     <div class="buttons"> 
 
-                        <div class="function">
+                        <div class="function">                                    
                              <button class="button" data-value="" id="function">AC</button>
                              <button class="button" data-value="" id="function">DEL</button>
                              <button class="button" data-value="" id="function">C</button>
-                             <button class="button" data-value="" id="function">M</button>
+                             <button class="button" data-value="" id="function">Sin</button>
+                             <button class="button" data-value="" id="function">Cos</button>
+                             <button class="button" data-value="" id="function">Tan</button>
+                             <button class="button" data-value="" id="function">Log</button>
                         </div>
-
-                        
 
                         <div class="pavé_Numérique">
                                             
                             <div class="number">
-                                <button class="button" data-value="" id="nbre">1</button>
-                                <button class="button" data-value="" id="nbre">4</button>
-                                <button class="button" data-value="" id="nbre">7</button>
-                                <button class="button" data-value="" id="nbre">2</button>
-                                <button class="button" data-value="" id="nbre">5</button>
-                                <button class="button" data-value="" id="nbre">8</button>
-                                <button class="button" data-value="" id="nbre">3</button>
-                                <button class="button" data-value="" id="nbre">6</button>
-                                <button class="button" data-value="" id="nbre">9</button>
-                                <button class="button" data-value="" id="nbre">0</button>
-                                <button class="button" data-value="" id="ope">,</button>
-                                <button class="button" data-value="" id="ope">=</button>
-                                                            
+                                <button class="button" data-value="" id="nbre" onclick="value(1);">1</button>
+                                <button class="button" data-value="" id="nbre" onclick="value(4);">4</button>
+                                <button class="button" data-value="" id="nbre" onclick="value(7);">7</button>
+                                <button class="button" data-value="" id="nbre" onclick="value(0);">0</button>
+                                <button class="button" data-value="" id="nbre" onclick="value(2);">2</button>
+                                <button class="button" data-value="" id="nbre" onclick="value(5);">5</button>
+                                <button class="button" data-value="" id="nbre" onclick="value(8);">8</button>
+                                <button class="button" data-value="" id="ope"  onclick="value(0);">,</button>
+                                <button class="button" data-value="" id="nbre" onclick="value(3);">3</button>
+                                <button class="button" data-value="" id="nbre" onclick="value(6);">6</button>
+                                <button class="button" data-value="" id="nbre" onclick="value(9);">9</button>
+                                <button class="button" data-value="" id="ope"  onclick="value(0);">=</button>
                             </div>
                                                             
                             <div class="sign">
-                                <button class="button" data-value="" id="sign">+</button>
-                                <button class="button" data-value="" id="sign">-</button>
-                                <button class="button" data-value="" id="sign">x</button>
-                                <button class="button" data-value="" id="sign">/</button>
+                                <button class="button" data-value="" id="signe">+</button>
+                                <button class="button" data-value="" id="signe">-</button>
+                                <button class="button" data-value="" id="signe">x</button>
+                                <button class="button" data-value="" id="signe">/</button>
+                                <button class="button" data-value="" id="signe">+</button>
+                                <button class="button" data-value="" id="signe">-</button>
+                                <button class="button" data-value="" id="signe">x</button>
+                                <button class="button" data-value="" id="signe">/</button>
+                                <button class="button" data-value="" id="signe">+</button>
+                                <button class="button" data-value="" id="signe">-</button>
+                                <button class="button" data-value="" id="signe">x</button>
+                                <button class="button" data-value="" id="signe">/</button>
+                                <button class="button" data-value="" id="signe">+</button>
+                                <button class="button" data-value="" id="signe">-</button>
+                                <button class="button" data-value="" id="signe">x</button>
+                                <button class="button" data-value="" id="signe">/</button>
+                              
                             </div>
 
                                                             

@@ -1,0 +1,119 @@
+
+* , * :after, * :before{
+    box-sizing:content-box;
+    }
+    
+    html,body{
+        margin :0px; 
+        padding: 0px;
+        width: 100% ;
+        height:100%;
+        color: white;
+        
+    }
+    .calculatrice{ 
+        width:calc(100% -2 px);
+        height: calc(100% - 2px);
+        background-color: #000F08;
+        display:flex;
+        flex-direction:column;
+    }
+       .calculatrice .ecran{
+     width: 100% ;
+     height:calc(300px);
+     background-color: blanchedalmond;
+    
+        }
+    
+        .calculatrice .buttons{ 
+    width:100%;
+    height:375px;
+    display:flex;
+    flex-direction:column;
+    margin: 0px;
+    
+        }
+        .calculatrice .buttons .function{
+            width: 108%;
+            height:100%;
+            display:block;
+            columns: 8;
+            flex-direction: row;
+            margin:-5px;
+            padding: 0px;
+            margin-left:15px;
+            justify-content: center;
+    
+        }
+        .calculatrice .buttons .pavé_Numérique{
+            color: white;
+            width:100% ;
+            height:288px;
+            display: block;
+            flex-direction: row;
+            margin: 0px;
+            justify-content: center;
+        }
+    
+        .calculatrice .buttons .pavé_Numérique .number{
+    
+            width:216px;
+            height:100%;
+            display:block;
+            float:left;
+            columns: 3;
+            margin:10px;
+            padding: 0px;
+            justify-content: center;
+        }
+        .calculatrice .buttons .pavé_Numérique .sign{
+            columns: 4;
+            width: 310px;
+            height:100%;
+            display:block;
+            float: left;
+            margin: 10px;
+            padding: 0px;
+            justify-content: center;
+        }
+        .button{
+            width: 40px;
+            height:40px;
+            border-radius: 20px;
+            background-color: #484848;
+            display : flex;
+            float : left;
+            color: white;
+            justify-content: center;
+            margin: 12px;
+        }
+       
+    #nbre{
+        color: white;
+        border-style: none;
+
+    }
+
+    #signe{
+        background-color: slateblue;
+        border-style: none;
+
+    }
+
+    #function{
+        background-color: tomato;
+        border-style: none;
+        border-radius: 20px;
+    }
+
+    #ope{
+        background-color: springgreen;
+        color: black;
+        border-style: none;
+    }
+
+    
+    
+    
+    
+    
